@@ -351,6 +351,7 @@
     <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="Controllers\ReviewController.cs" />
     <Compile Include="Controllers\ShippingController.cs" />
+    <Compile Include="Controllers\TestHomeController.cs" />
     <Compile Include="Controllers\uCommerceEmailController.cs" />
     <Compile Include="Controllers\VoucherController.cs" />
     <Compile Include="Models\AddressDetailsViewModel.cs" />
@@ -588,6 +589,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Views\TestHome\" />
     <Folder Include="Views\uCommerceEmail\" />
   </ItemGroup>
   <ItemGroup />
@@ -627,7 +629,7 @@
     </VisualStudio>
   </ProjectExtensions>
   <PropertyGroup>
-    <PostBuildEvent>"$(SolutionDir)..\tools\deploy\Deploy.cmd" "$(ProjectDir)" "D:\Fiberkompaniet\Fiberkompaniet\Fiberkompaniet"
+    <PostBuildEvent>"$(SolutionDir)..\tools\deploy\Deploy.cmd" "$(ProjectDir)" "C:\TestFromHome\FiberCMSTest01\Fiberkompaniet"
 </PostBuildEvent>
   </PropertyGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
