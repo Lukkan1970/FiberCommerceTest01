@@ -629,7 +629,7 @@
     </VisualStudio>
   </ProjectExtensions>
   <PropertyGroup>
-    <PostBuildEvent>"$(SolutionDir)..\tools\deploy\Deploy.cmd" "$(ProjectDir)" "D:\Fiberkompaniet\Fiberkompaniet\Fiberkompaniet"
+    <PostBuildEvent>"$(SolutionDir)..\tools\deploy\Deploy.cmd" "$(ProjectDir)" "C:\TestFromHome\FiberCMSTest01\Fiberkompaniet"
 </PostBuildEvent>
   </PropertyGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
